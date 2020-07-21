@@ -5,7 +5,7 @@ const MovieInfo = (props) => {
         <div>
             <div className="container">
                 <div className="row" onClick={props.closeMovieInfo} style={{ cursor: "pointer", paddingTop: 50 }}>
-                    <i class="fas fa-arrow-left"></i>
+                    <i className="fas fa-arrow-left"></i>
                     <span style={{ marginLeft: 10 }}>Go back</span>
                 </div>
                 <div className="row">
