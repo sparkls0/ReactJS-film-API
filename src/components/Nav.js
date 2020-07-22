@@ -2,9 +2,9 @@ import React from 'react';
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className="navbar">
             <div className="nav-wrapper container">
-                <a href="" className="brand-logo">Movie Finder</a>
+                <a href="" className="brand-logo"> Liste de films</a>
             </div>
         </nav>
     )

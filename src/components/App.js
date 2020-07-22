@@ -5,6 +5,7 @@ import SearchBox from './SearchBox'
 import MovieList from './MovieList'
 import Pagination from './Pagination'
 import MovieInfo from './MovieInfo';
+import background from './background';
 
 class App extends Component {
   constructor() {

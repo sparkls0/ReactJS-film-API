@@ -1,7 +1,6 @@
 import React from 'react';
 
 const Movie = (props) => {
-    let formatDate = props.date.split("-").reverse().join("/");
 
     return (
         <div className="col s12 m6 l3">
@@ -16,7 +15,7 @@ const Movie = (props) => {
                     }} />}
                 </div>
                 <div className="card-content">
-                    <p><a href="#" onClick={() => props.viewMovieInfo(props.movieId)}>View Details</a></p>
+                    <p><a href="#" onClick={() => props.viewMovieInfo(props.movieId)}>Plus de détails <i class="fas fa-plus-circle"></i></a></p>
                 </div>
             </div>
         </div>

@@ -1,0 +1,141 @@
+
+body{
+    background-color:#15202B;
+}
+
+.navbar{
+    background-color:#15202B;
+    border-bottom:2px solid #D4AF37;
+}
+.navbar a{
+    margin-right:15%;
+}
+.input-field input{
+    color:white;
+    width:80%;
+}
+
+.center{
+    margin-left:20%;
+}
+.input-field{
+    margin-top:15%;
+}
+.card{
+    border:4px solid #D4AF37;
+}
+.card-content{
+    background-color: #15202B;
+}
+.card-content a{
+    color:white;
+}
+.card-content p{
+    border:2px solid white;
+    border-radius:0.8em;
+    text-align:center;
+    width:60%;
+    padding-top:O.5%;
+    padding-bottom:0.5%;
+}
+.picture-detail img{
+    border-radius: 1em;
+    border:2px solid #D4AF37;
+}
+.info-container p{
+    color:white;
+    font-size:1.2em;
+}
+.info-container h1{
+    color:white;
+    font-size:2em;
+    text-decoration: underline;
+    text-decoration-color:white;
+    
+}
+
+.container-all-details{
+    margin-top:6%;
+}
+.controls i{
+    color:white;
+    font-size:1.5em;
+}
+.controls span{
+    color:white;
+    font-size:1.5em;
+}
+.text-details{
+    margin-left:3%;
+}
+.all-films{
+    width:90%;
+}
+.card img{
+    border-bottom: 2px solid #D4AF37;
+}
+
+.container-searchbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchbar {
+    float: right;
+    color: white;
+    padding: 6px 10px;
+    width: 120px;
+    border: none;
+    margin-top: 1px;
+    margin-right: 8px;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+
+.searchbar::placeholder {
+    color: white;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    /* transition: 0.2s; */
+}
+
+.searchbar:active {
+    width: 105%;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    transition: 0.2s;
+    /* Stops the input box from inheriting the styling from the inputs on the request form */
+    outline: none;
+}
+
+.btn-search {
+    cursor: pointer;
+    color: white;
+    text-decoration: none !important;
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    padding-top: 5px;
+    margin-right: 40px;
+}
+
+.full-scale{
+    width:100%;
+}
+
+.white{
+    color:white;
+}
+
+.pagination li.active{
+    background-color:#D4AF37;
+}
+.pagination li a{
+    color:white;
+}
